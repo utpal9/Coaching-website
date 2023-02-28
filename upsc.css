@@ -1,0 +1,116 @@
+ul {
+    padding: 0;
+    list-style: none;
+    background: #EB455F;
+    
+}
+ul nav-item {
+    display: inline-block;
+    position: relative;
+    line-height: 21px; 
+     text-align: left;
+} 
+ ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #fff;
+    
+}
+ul li ul.dropdown {
+    
+
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+ul li:hover ul.dropdown {
+    display: block; 
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .nav-item {
+      padding: 0 !important;
+    }
+  }
+
+  .active{
+    border-bottom: 1px solid white;
+}
+
+footer{
+    padding: 20px;
+    margin-top: 10%;
+    color: #ffffff;
+    background-color:  #181818;
+    
+}
+
+/* border-bottom: 2px solid white; */
+
+.upsc:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.ssc:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.banking:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.home:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.gallery:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.aboutus:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.contactus:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.terms{
+    color: gray;
+    text-decoration: none;
+}
+.privacy{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-home:hover{
+    border-bottom: 1px solid white;
+    /* color: red; */
+}
+.nav-courses:hover{
+    border-bottom: 2px solid white;
+}
+.nav-gallery:hover{
+    border-bottom: 2px solid white;
+}
+.nav-about:hover{
+    border-bottom: 2px solid white;
+}
+.nav-contact:hover{
+    border-bottom: 2px solid white;
+}

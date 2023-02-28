@@ -1,0 +1,206 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    color: white;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Nunito", sans-serif;
+  } */
+
+  .facCard:hover {
+    transform: translate3D(0,-1px,0) scale(1.03);
+  }
+
+
+  
+  .courseCard:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+  }
+
+footer{
+    padding: 20px;
+    margin-top: 10%;
+    color: #ffffff;
+    background-color:  #00b47b;
+    
+}
+
+border-bottom: 2px solid white;
+
+.upsc:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.ssc:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.banking:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.home:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.gallery:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.aboutus:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.contactus:hover{
+    color: rgb(121, 30, 30);
+    border-bottom: 2px solid white;
+}
+
+.terms{
+    color: gray;
+    text-decoration: none;
+}
+.privacy{
+    color: gray;
+    text-decoration: none;
+}
+
+.nav-home:hover{
+    border-bottom: 1px solid white;
+    /* color: red; */
+}
+.nav-courses:hover{
+    border-bottom: 2px solid white;
+}
+.nav-gallery:hover{
+    border-bottom: 2px solid white;
+}
+.nav-about:hover{
+    border-bottom: 2px solid white;
+}
+.nav-contact:hover{
+    border-bottom: 2px solid white;
+}
+
+.active{
+
+    /* border-bottom: 2px solid white !important; */
+    color: #ffffff;
+
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    background: #EB455F;
+    
+}
+ul nav-item {
+    display: inline-block;
+    position: relative;
+    line-height: 21px; 
+     text-align: left;
+} 
+ ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #fff;
+    
+}
+ul li ul.dropdown {
+    
+
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+ul li:hover ul.dropdown {
+    display: block; 
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+@media only screen and (min-width: 200px) and (max-width:768px){
+    /* nav .nav-item {
+      padding: 0 !important;
+    } */
+
+    .title {
+        font-size: 2rem !important;
+      }
+      .index-img{
+          width: 100% !important;
+          display: block;
+        
+          
+      }
+
+    .map{
+        width: 80%;
+    }
+
+    .fac-card-body .fac-card{
+        width: 100%;
+      }
+
+      .active{
+        border-bottom: 0;
+      }
+        
+
+  }
+
+
+  @media only screen and (max-width: 1440px){
+    /* nav .nav-item {
+      padding: 0 !important;
+    } */
+
+    .title {
+        font-size: 2rem !important;
+      }
+      .index-img{
+          width: 100% !important;
+          display: block;
+        
+          
+      }
+
+    .map{
+        width: 70%;
+    }
+
+  }
+
+  @media only screen and (max-width: 1490px) {
+
+    .map{
+        width: 90%;
+    }
+
+    
+  }
+  
+
+
+
+
+
+
+
+   
+
+
+

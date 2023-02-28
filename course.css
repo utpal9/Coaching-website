@@ -1,0 +1,50 @@
+.active{
+
+    border-bottom: 1px solid white;
+}
+
+ul {
+    padding: 0;
+    list-style: none;
+    background: #EB455F;
+    
+}
+ul nav-item {
+    display: inline-block;
+    position: relative;
+    line-height: 21px;
+    text-align: left;
+} 
+ ul li a {
+    display: block;
+    padding: 8px 25px;
+    color: white;
+    text-decoration: none;
+}
+ul li a:hover {
+    color: #fff;
+    
+}
+ul li ul.dropdown {
+    
+
+    display: none;
+    position: absolute;
+    z-index: 999;
+}
+ul li:hover ul.dropdown {
+    display: block; 
+}
+ul li ul.dropdown li {
+    display: block;
+}
+
+@media only screen and (max-width: 992px) {
+    nav .nav-item {
+      padding: 0 !important;
+    }
+  }
+
+  .courseCard:hover{
+    transform: translate3D(0,-1px,0) scale(1.03);
+  }
